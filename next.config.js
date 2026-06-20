@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // 静态导出，部署到 EdgeOne Pages / 任意静态托管
+  // 静态导出
   output: 'export',
+  // GitHub Pages 项目站点需要 basePath
+  basePath: '/cuoti-ben',
   // 静态导出时不使用 next/image 的优化
   images: {
     unoptimized: true,
