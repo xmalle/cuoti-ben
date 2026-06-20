@@ -6,7 +6,7 @@ import { AppShell } from '@/components/layout/app-shell';
 export const metadata: Metadata = {
   title: '考研错题本',
   description: '考研专业课与数学错题管理 · 章节错因分析 · 间隔重复复习',
-  manifest: '/manifest.json',
+  manifest: '/cuoti-ben/manifest.json',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
