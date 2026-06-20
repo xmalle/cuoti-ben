@@ -1,0 +1,46 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# next.js
+.next/
+out/
+build/
+dist/
+
+# production
+*.tsbuildinfo
+next-env.d.ts
+
+# environment
+.env*.local
+.env
+
+# misc
+.DS_Store
+*.pem
+Thumbs.db
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# vercel
+.vercel
+
+# editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# os
+DumpStack.log.tmp
+hiberfil.sys
+pagefile.sys
+swapfile.sys
+
+# workbuddy workspace data
+.workbuddy/
